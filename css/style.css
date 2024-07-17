@@ -1,0 +1,52 @@
+body, html, h1,h2,h3,h4,h5,h6,p {    
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section{
+    width: 90%;
+    margin: auto auto;
+}
+.wrapper{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;       
+}
+.wrapper div {
+    width: 250px;
+    height: 120px;    
+    display: flex;     
+    justify-content: space-between;     
+    align-items: center;  
+    padding: 0 15px;   
+    border-radius: 7px 7px;
+    border: none;
+}
+
+.watch{
+    background-color: #0DCBF0;       
+}
+.watch .icon{
+    background: url('../images/watch.png') no-repeat;    
+}
+.shoes{
+    background-color: #0E6FFD;
+}
+.shoes .icon{
+    background: url('../images/shoe.png') no-repeat;    
+}
+.bags{
+    background-color: #198754;
+}
+.bags .icon{
+    background: url('../images/bag.png') no-repeat;    
+}
+
+.icon{    
+    width: 45px !important;
+    height: 80px !important;
+    background-size: 100% 100% !important;
+    margin-right: 15px !important;
+}
